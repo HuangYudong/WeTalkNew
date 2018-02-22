@@ -1,0 +1,31 @@
+<!--pages/first/first.wxml-->
+
+  <swiper indicator-dots='true' autoplay='true' interval='4000'>
+    <swiper-item>
+     <image src='{{TitleList[3].imageUrls[0]}}'/>
+    </swiper-item>
+     <swiper-item>
+     <image src='{{TitleList[4].imageUrls[0]}}'/>
+    </swiper-item>
+     <swiper-item>
+     <image src='{{TitleList[5].imageUrls[0]}}'/>
+    </swiper-item>
+       <swiper-item>
+     <image src='{{TitleList[6].imageUrls[0]}}'/>
+    </swiper-item>
+          <swiper-item>
+     <image src='{{TitleList[7].imageUrls[0]}}'/>
+    </swiper-item>
+          <swiper-item>
+     <image src='{{TitleList[8].imageUrls[0]}}'/>
+    </swiper-item>
+  </swiper> 
+<!--显示列表-->
+<block wx:for="{{TitleList}}">
+  <view class='TitleList'>
+    <navigator url="/pages/view/view?id={{item.url}}"><!--跳转到详情页面-->
+     <image class="post-img" src='{{item.imageUrls[0]}}' mode="widthFix"/>
+     <view class="post-title">{{item.title}}</view>
+    </navigator>
+  </view>
+</block>

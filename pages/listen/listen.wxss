@@ -1,0 +1,70 @@
+/* pages/listen/listen.wxss */
+page {  
+  display: block;  
+  min-height: 100%;  
+  background-color: #F7F7F7;  
+}  
+
+.master-id{
+  align-items: left;
+  font-size:28rpx;
+  margin-left: 10rpx;
+  color: #ccc;
+}
+.master-info{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: bottom;
+	padding: 30rpx;
+	background-color: #fff;
+	margin-bottom: 30rpx;
+}
+
+.master-user{
+	font-size: 30rpx;
+	letter-spacing: 1px;
+}
+
+
+.master-fllow{
+  	justify-content: space-between;
+    align-items: center;
+    width: 550rpx;
+    display: flex;
+    flex-direction:row;
+}
+
+.master-fllow image{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 50%;
+}
+
+.item-voice {
+	color: #fff;
+  font-family :  fantasy;
+  font-weight : normal;
+  font-style : normal;
+  font-size: 28rpx;
+	text-align: center;
+	width: 300rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	border-radius: 50rpx;
+	background-color: #1dcda6;
+}
+
+.post-voie
+{
+   display: flex;
+   margin-top: 30rpx;
+}
+
+.item-listenCount
+{
+  font-size: 24rpx;
+  margin-top: 45rpx;
+  margin-left: 250rpx;
+  color: #ccc;
+}

@@ -1,0 +1,28 @@
+<view  class="clos">
+    <input  class='inputEdtClass' placeholder="请输入关键词" auto-focus></input>
+
+    <button class='buttonClsaa'> 搜索 </button>
+
+</view>
+
+
+<template name="master-column">
+	<view class="master-info" bindtap="toPerson" data-master="czy">
+		<image src="{{imageUrls[0]}}"></image>
+		<view class="master-brief">
+			<view class="master-user">{{posterScreenName}}</view>
+			<view class="master-intro">{{content}}</view>
+			<view class="master-fans">{{commentCount}} 收听</view>
+		</view>
+       <navigator url="/pages/askCos/askCos?personIntr={{content}}&personName={{posterScreenName}}&imageUrl={{imageUrls[0]}}"><!--跳转到详情页面-->
+        <view class="master-follow">￥11提问</view>
+      </navigator>
+
+	</view>
+</template>
+
+<view class="column-wrapper">
+	<block wx:for="{{PersonList}}">
+		<template is="master-column" data="{{...item}}"/>
+	</block>
+</view>

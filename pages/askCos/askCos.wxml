@@ -1,0 +1,21 @@
+<!--pages/ask/ask.wxml-->
+<view class="about">
+	<view class="master-info">
+		<image src="{{imageUrl}}"></image>
+		<view class="master-brief">
+			<view class="master-user">{{personName}}</view>
+			<view class="master-fans"><text class="bold">2821</text> 收听</view>
+		</view>
+		<view class="master-follow">收听</view>
+	</view>
+	<view class="detail">
+		<view>{{personIntr}}</view>
+	</view>
+</view>
+<view class="quiz-wrapper">
+	<view class="quiz-info">公开提问</view>
+	<view class="quiz-input">
+		<textarea maxlength="4">向TA提问，等TA语音回答；超过48小时未回答，将按支付路径全额退款，被回答后可免费向TA追问</textarea>
+	</view>
+	<button class="submit">￥9.9 提问</button>
+</view>

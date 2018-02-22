@@ -1,0 +1,29 @@
+/* pages/first/first.wxss */
+/* pages/listen/listen.wxss */
+page {  
+  display: block;  
+  min-height: 100%;  
+  background-color: #F7F7F7;  
+}  
+swiper{
+  width: 100%;
+  height:300rpx;
+}
+  swiper image{
+    width: 100%;
+    height: 300rpx;
+  }
+.TitleList
+{
+    background-color: #fff;
+    margin-top: 8rpx;
+}
+  .post-img{
+    width:375rpx;
+    height: 140rpx;
+  }
+  .post-title{
+    float: right;
+    display: inline-block;
+    width: 375rpx;
+  }

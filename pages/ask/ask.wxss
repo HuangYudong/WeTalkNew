@@ -1,0 +1,90 @@
+page {  
+  display: block;  
+  flex-direction: row;
+  background-color: #F7F7F7;  
+}  
+.clos{
+  display: flex;
+  width: 100%
+}
+.inputEdtClass{
+	border-radius: 50rpx;
+  margin-right: 10rpx;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  text-align: center;
+  background-color: #FFFFFF;  
+  height: 70rpx;
+  width: 550rpx;
+}
+.buttonClsaa{
+  border-radius: 50rpx;
+  margin-right: 10rpx;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  line-height: 70rpx;
+  font-size: 19;
+  color: #fff;
+  background-color: #66ccff;  
+  height: 70rpx;
+  width: 160rpx
+}
+.column-title{
+	background-color: #fff;
+	text-align: center;
+	padding: 30rpx;
+	color: #666;
+}
+.column-wrapper{
+	margin-bottom: 30rpx;
+  	font-size: 28rpx;
+
+}
+.master-info{
+	border-top: 1rpx solid #efefef;
+	display: flex;
+  font-size: 28rpx;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	padding: 30rpx;
+	background-color: #fff;
+}
+.master-info image{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 50%;
+}
+.master-brief{
+	height: 120rpx;
+	padding-left: 40rpx;
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.master-user{
+	font-size: 30rpx;
+	letter-spacing: 1px;
+}
+.master-intro {
+	color: #888;
+	width: 300rpx;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.master-fans{
+	color: #888;
+}
+.master-follow{
+	color: #ddd;
+	width: 80rpx;
+	padding: 10rpx;
+	border-radius: 50rpx;
+	background-color: #999;
+	text-align: center;
+}

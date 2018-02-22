@@ -1,0 +1,15 @@
+<!--pages/listen/listen.wxml-->
+<block wx:for='{{QuestionList}}'>
+  <view class='master-info'>
+     <view class='master-fllow'>
+      <image src="{{item.imageUrls[0]}}"/>
+         <text class='master-id'>ID：{{item.posterScreenName[0]}}{{item.posterScreenName[1]}} 来自话题：XXX</text>
+    </view>
+     <text>{{item.content}}</text>
+    <view class='post-voie' bindtap="playVoice">
+         <view class='item-voice'>收费/免费收听</view>
+         <text class='item-listenCount'>听过：xx人</text>
+   </view>
+ </view>
+</block>
+

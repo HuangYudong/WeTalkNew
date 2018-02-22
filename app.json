@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/first/first",
+    "pages/listen/listen",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/ask/ask",
+    "pages/mine/mine",
+    "pages/view/view",
+    "pages/askCos/askCos",
+    "pages/mAsk/mAsk",
+    "pages/mListen/mListen",
+    "pages/mTCoins/mTCoins",
+    "pages/help/help",
+    "pages/about/about",
+    "pages/blanceExplain/blanceExplain"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#BBBBBB",
+    "selectedColor": "#66ccff",
+    "list": [
+      {
+        "pagePath": "pages/first/first",
+        "iconPath": "pages/images/ICOs/Home.png",
+        "selectedIconPath": "pages/images/ICOs/HomeCos.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/listen/listen",
+        "iconPath": "pages/images/ICOs/Listen.png",
+        "selectedIconPath": "pages/images/ICOs/ListenCos.png",
+        "text": "收听"
+      },
+      {
+        "pagePath": "pages/ask/ask",
+        "iconPath": "pages/images/ICOs/Ask.png",
+        "selectedIconPath": "pages/images/ICOs/AskCos.png",
+        "text": "提问"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "pages/images/ICOs/Mine.png",
+        "selectedIconPath": "pages/images/ICOs/MineCos.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
